@@ -309,7 +309,7 @@ a. Under the Storage: Use managed disks section, select the No option.
 b. Under the Storage Account section, select stor20532[your name here].  
 c. Under the Virtual Network section, select vnet20532.  
 d. Under the Subnet section, select Apps.  
-e. Leave default values for Public IP Address, Network Security Group (firewall), Extensions and High Availability  
+e. Leave default values for Public IP Address, Network Security Group (firewall), Extensions,Auto-shutdown and High Availability  
 f. Under the Monitoring: Diagnostic section, select the Disabled option for both options.  
 g. Scroll down and click OK.  
   
