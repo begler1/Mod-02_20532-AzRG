@@ -1,5 +1,4 @@
-
-<!---
+!---
 Version: 1.0 
 -->
 # Exercise 1: Creating a Network and Resource Container
