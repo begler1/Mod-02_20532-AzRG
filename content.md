@@ -15,7 +15,7 @@ Results: After completing this exercise, you will have a new virtual network and
 Login as Student with a password of Pa$$w0rd.
 
 #### :bulb: KNOWLEDGE
-You can use the Commands menu and choose Ctrl\+Alt\+Delete then click Student and enter Pa$$w0rd and press Enter. You can also use the Command menu and choose Paste/Paste Password instead of typing the password manually.
+You can use the Commands menu and choose Ctrl+Alt+Delete then click Student and enter Pa$$w0rd and press Enter. You can also use the Command menu and choose Paste/Paste Password instead of typing the password manually.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -39,7 +39,7 @@ On the Start screen, click the Internet Explorer tile
 
 
 ### Go to the new Azure Portal
-Go to \(https://portal.azure.com\). Enter the email address of your Microsoft account associated with your Azure subscription. Then enter the password for your Microsoft account. Check Keep me signed in. Click Sign In.
+Go to (https://portal.azure.com). Enter the email address of your Microsoft account associated with your Azure subscription. Then enter the password for your Microsoft account. Check Keep me signed in. Click Sign In.
 
 #### :bulb: KNOWLEDGE
 If this is your first time logging in to the Azure portal, you will see a dialog with a tour of the portal. Click "Maybe Later" to bypass the tour. If you see a pop-up for Skype for Business click Don't Enable. Note that you can further customize your Dashborad by clicking Edit Dashboard and then click Done Customizing when finished.
@@ -96,7 +96,7 @@ Note: You can click on the LODS "Support" tab to view what data center location 
 In the navigation pane on the left side of the Azure Portal, scroll down, and then click More Services. In the Browse blade that displays, scroll down and click Virtual networks.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \(3 horizontal lines at top of menu on left\) to show the full menu. You can click it again to Hide the menu \(showing just icons\).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -151,7 +151,7 @@ Results: After completing this exercise, you will have a new virtual machine sto
 In the navigation pane on the left side of the Azure Portal, scroll down, and click More Services. In the Browse blade that displays, scroll down and click Storage Accounts.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \(3 horizontal lines at top of menu on left\) to show the full menu. You can click it again to Hide the menu \(showing just icons\).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -175,11 +175,11 @@ In the Storage accounts blade that displays, view your list of Storage instances
 
 ### In the Create storage account blade:
 In the Create storage account blade that displays, perform the following steps:  
-a. In the Name box, provide the value stor20532\[your name in lowercase here\]. Add a number if it is not unique.  
+a. In the Name box, provide the value stor20532[your name in lowercase here]. Add a number if it is not unique.  
 b. In the Deployment model section, ensure that the Resource manager option is selected.  
 c. In the Account kind list, ensure that the General purpose option is selected.  
 d. In the Performance section, ensure that the Standard option is selected.  
-e. Click on the Replication list and select the Locally-redundant storage \(LRS\) option.   
+e. Click on the Replication list and select the Locally-redundant storage (LRS) option.   
 f. Make sure the Storage service encryption and Secure Transfer options are Disabled.  
 g. In the Resource group section, select the Use existing option.  
 h. In the Resource group section, locate the dialog box and provide the value 20532.  
@@ -200,7 +200,7 @@ Note: Wait for Azure to finish creating the storage account prior to moving forw
 
 
 ### Wait for Azure to finish creating the storage acct
-Wait for Azure to finish creating the storage account prior to moving forward with the lab. You will receive a notification when the Storage Account is created and you will see the Storage Account's blade. If not, click the Notification icon at the top of the dashboard \(a bell icon\) and then click the top \(latest\) deployments successful messasge to take you to the Storage Account blader.
+Wait for Azure to finish creating the storage account prior to moving forward with the lab. You will receive a notification when the Storage Account is created and you will see the Storage Account's blade. If not, click the Notification icon at the top of the dashboard (a bell icon) and then click the top (latest) deployments successful messasge to take you to the Storage Account blader.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -214,7 +214,7 @@ Wait for Azure to finish creating the storage account prior to moving forward wi
 In the navigation pane on the left side of the Azure Portal, scroll down, and click More Services. In the Browse blade that displays, click Virtual machines.
 
 #### :bulb: KNOWLEDGE
-Note that you can click the Show menu button \(3 horizontal lines at top of menu on left\) to show the full menu. You can click it again to Hide the menu \(showing just icons\).
+Note that you can click the Show menu button (3 horizontal lines at top of menu on left) to show the full menu. You can click it again to Hide the menu (showing just icons).
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -247,7 +247,7 @@ In the Virtual Machines blade that displays, enter Visual Studio 2017 in the sea
 
 
 ### Select Visual Studio template image:
-Click on the Visual Studio Community 2017 on Windows Server 2016 \(x64\) template.
+Click on the Visual Studio Community 2017 on Windows Server 2016 (x64) template.
 
 #### :bulb: KNOWLEDGE
 Note: Ensure that you select this specific template as all further lab instructions assume that you are using this exact Azure SDK version, OS and Visual Studio version.
@@ -306,10 +306,10 @@ c. Click the Select button.
 ### Click Settings and perform the following steps:
 In the Create Virtual Machine blade that displays, click Settings and perform the following steps:  
 a. Under the Storage: Use managed disks section, select the No option.  
-b. Under the Storage Account section, select stor20532\[your name here\].  
+b. Under the Storage Account section, select stor20532[your name here].  
 c. Under the Virtual Network section, select vnet20532.  
 d. Under the Subnet section, select Apps.  
-e. Leave default values for Public IP Address, Network Security Group \(firewall\), Extensions and High Availability  
+e. Leave default values for Public IP Address, Network Security Group (firewall), Extensions and High Availability  
 f. Under the Monitoring: Diagnostic section, select the Disabled option for both options.  
 g. Scroll down and click OK.  
   
@@ -339,7 +339,7 @@ When presented with a Purchase blade, confirm by clicking Purchase to create the
 After the VM has finished deploying, the Overview blade should open automatically. If not, select the newly created virtual machine from your Dashboard. 
 
 #### :bulb: KNOWLEDGE
-Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard \(home screen\) when your virtual machine is created and running.
+Note: The creation of a new virtual machine can take anywhere between 10 to 15 minutes. You will see a notification on the Dashboard (home screen) when your virtual machine is created and running.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -362,10 +362,10 @@ In the Settings section, select the Disks option. In the Disks blade, click Add 
 
 ### In the Attach unmanaged disk blade:
 In the Attach unmanaged disk blade, perform the following steps:  
-a. In the Source type, select New \(empty disk\)  
-b. For Account type, select Standard \(HDD\).  
-c. In the Size \(GiB\) dialog box, provide the value, 128.  
-d. For Storage container, click Browse, then from the Storage account blade, select the previously created storage account, stor20532\[Your Name Here\]
+a. In the Source type, select New (empty disk)  
+b. For Account type, select Standard (HDD).  
+c. In the Size (GiB) dialog box, provide the value, 128.  
+d. For Storage container, click Browse, then from the Storage account blade, select the previously created storage account, stor20532[Your Name Here]
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -560,7 +560,7 @@ Press the Start button of the VM and type 'disk partition' to search for apps th
 ### In the Initialize Disk dialog box:
 In the Initialize Disk dialog box, perform the following steps:  
 a. Verify that Disk 2 is selected for initialization.  
-b. Verify that MBR \(Master Boot Record\) is the selected partition style.  
+b. Verify that MBR (Master Boot Record) is the selected partition style.  
 c. Click OK.
 
 #### :camera: SCREENSHOT
@@ -675,7 +675,7 @@ If you see a pop-up for "Several add-ons are ready for use" choose Don't Enable
 
 ### Go to Github
 Go to https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/releases/tag/C-v.1.1.1  
-\(You can position the cursor in the URL address field and click the "A" icon \(Type Text\) in the step window to paste the code\)
+(You can position the cursor in the URL address field and click the "A" icon (Type Text) in the step window to paste the code)
 
 #### :bulb: KNOWLEDGE
 If you wish to go with the latest published release of the labfiles you can go to: https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/releases/latest   
@@ -695,7 +695,7 @@ https://github.com/MicrosoftLearning/20532-DevelopingMicrosoftAzureSolutions/rel
 
 
 ### Download the AllFiles compressed folder
-Scroll down the screen until you find the allfiles download link. \(It will likely have a version number in the file name e.g. allfiles-v1.1.1.zip\) Click the link to download the AllFiles compressed folder. In the Internet Explorer download dialog box, click Save.  After the download is completed, you can then close the download dialog box.
+Scroll down the screen until you find the allfiles download link. (It will likely have a version number in the file name e.g. allfiles-v1.1.1.zip) Click the link to download the AllFiles compressed folder. In the Internet Explorer download dialog box, click Save.  After the download is completed, you can then close the download dialog box.
 
 #### :camera: SCREENSHOT
 >LODSProperties
@@ -725,7 +725,7 @@ b. Click OK.
 If the Unblock button is not present, do the following:  
 a. Clear ReadOnly checkbox.  
 b. Click OK.  
-c. Click OK.  \(to apply to all files and folders\)  
+c. Click OK.  (to apply to all files and folders)  
 d. Open Properties window again and click Unblock and click OK.
 
 #### :camera: SCREENSHOT
@@ -748,8 +748,8 @@ Right-click the allfiles compressed folder and select the Extract All option.
 
 
 ### In the Extract Compressed (Zipped) Folders dialog
-In the Extract Compressed \(Zipped\) Folders dialog box, do the following:  
-a. In the Files will be extracted to this folder: dialog, provide the value F:\\  
+In the Extract Compressed (Zipped) Folders dialog box, do the following:  
+a. In the Files will be extracted to this folder: dialog, provide the value F:\  
 b. Ensure that the Show extracted files when complete checkbox is NOT selected.  
 c. Click Extract.  
 Wait for the extraction process to complete.
